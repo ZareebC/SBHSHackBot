@@ -48,6 +48,14 @@ int auton_rectangle(){
   }
   
 }
+int main() {
+    
 
+    pre_auton();
+
+    while(1) {
+      task::sleep(100);
+    }
+}
 
 
